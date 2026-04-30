@@ -134,3 +134,51 @@ footer {
 	background-color: #102a43;
 	color: #ffffff;
 }
+
+/* OVER MIJ LAYOUT */
+.about {
+	display: flex;
+	align-items: center;
+	gap: 3rem;
+	margin-bottom: 4rem;
+}
+
+.about-text {
+	flex: 2;
+}
+
+.about-image {
+	flex: 1;
+}
+
+.about-image img {
+	width: 100%;
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+/* TIMELINE */
+.timeline h2 {
+	margin-bottom: 2rem;
+}
+
+.timeline-items {
+	display: flex;
+	gap: 1.5rem;
+	flex-wrap: wrap;
+}
+
+.timeline-card {
+	flex: 1;
+	min-width: 200px;
+	background-color: white;
+	padding: 1.5rem;
+	border-radius: 15px;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+	border-left: 5px solid #f97316;
+	transition: transform 0.3s ease;
+}
+
+.timeline-card:hover {
+	transform: translateY(-5px);
+}
