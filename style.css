@@ -376,3 +376,33 @@ footer {
 .nav-links {
 	z-index: 1000;
 }
+
+/* HERO FOTO */
+.hero-image {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+
+.hero-image img {
+	width: 280px;
+	height: 280px;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 5px solid #ffd166;
+	box-shadow: 0 0 30px rgba(255, 209, 102, 0.6);
+	animation: float 3s ease-in-out infinite;
+}
+
+/* FLOAT ANIMATIE */
+@keyframes float {
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
