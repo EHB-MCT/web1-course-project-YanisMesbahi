@@ -333,3 +333,26 @@ footer {
 .nav-links a:hover::after {
 	width: 100%;
 }
+
+/* GALLERY */
+.gallery {
+	margin-top: 4rem;
+}
+
+.gallery-grid {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+.gallery-grid img {
+	width: 100%;
+	max-width: 300px;
+	border-radius: 15px;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+	transform: scale(1.05);
+}
