@@ -372,3 +372,7 @@ footer {
 		padding: 2rem 1.2rem;
 	}
 }
+
+.nav-links {
+	z-index: 1000;
+}
